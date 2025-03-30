@@ -15,11 +15,16 @@ header{
     padding: 20px;
 }
 
-header img{
+header .pfp{
     width: 300px;
     height: 300px;
     border: 7px solid #172e1a;
     border-radius: 50%;
+    background-image: url('./../img/narutopfp.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1{
@@ -27,7 +32,7 @@ header h1{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 50px;
+    font-size: 40px;
     margin: 10px 0 20px;
     color: #172e1a;
 }
